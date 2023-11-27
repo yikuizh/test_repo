@@ -1,0 +1,59 @@
+# general ignores:
+##################
+# ignore swap fiels
+*.swp
+# ignore slurm log-files
+*-out.*
+*-err.*
+*.out
+*.err
+# ignore any nc file
+*.nc
+*.nc4
+*.sa
+# ignore any csv file
+*.csv
+*.npy
+*.npz
+*.hdf5
+# ignore any pdf file
+*.pdf
+# ignore any pdf file
+*.png
+# ignore any checkpoint file
+*checkpoint.ipynb
+# ignore forcing files
+forcing/ERA5/**
+forcing/INT2LM/**
+# ignore rundir for INT2LM
+run_INT2LM/**
+# ignore rundirs for TSMP
+run_TSMP/*
+# ignore stuf in src directory
+src/**
+# ignore temp_devel dir in ctrl/
+ctrl/tmp_devel/**
+# ignore stuff in ctrl/logs
+ctrl/logs/**
+# ignore content of simres
+simres/**
+# ignore content of postpro
+postpro/**
+# ignore content of geo
+geo/**
+# ignore content of monitoring
+monitoring/**
+# ignore content of dataset
+# ignore content of monitoring
+#/**
+.pyc
+
+# general keeps:
+################
+# keep .gitkeep files to keep dir-structure
+!**/.gitkeep
+
+# special ignores:
+##################
+# ext-data for INT2LM --> late add to repo!
+**/eafc_*
