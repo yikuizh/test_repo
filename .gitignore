@@ -50,8 +50,8 @@ monitoring/**
 
 # general keeps:
 ################
-# keep .gitkeep files to keep dir-structure
-!**/.gitkeep
+# keep .gitkeep files to keep dir-structure`
+**/.gitkeep
 
 # special ignores:
 ##################
